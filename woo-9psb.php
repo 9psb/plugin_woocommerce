@@ -12,7 +12,7 @@
  * Requires PHP:           7.4
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain: woo-9psb
+ * Text Domain: 9psb-gateway
  */
 
 
@@ -135,7 +135,7 @@ function customer_9payment_notification($event)
         Sentry\captureException($e);
 
         // If it fails, display error message.
-        wc_add_notice(__('Plugin Events error:', '9payment') . $e->getMessage(), 'error');
+        wc_add_notice(__('Plugin Events error:', '9psb-gateway') . $e->getMessage(), 'error');
         return false;
     }
 }
@@ -159,7 +159,6 @@ function wc_9payment_gateway_init()
  * @return array Existing links with our settings link added
  */
 function psb_plugin_action_links( array $links ): array {
-    error_log('psb_plugin_action_links called'); // Check if the function is called
 
     $psb_settings_url = esc_url( get_admin_url( null, 'admin.php?page=wc-settings&tab=checkout&section=9payment' ) );
     

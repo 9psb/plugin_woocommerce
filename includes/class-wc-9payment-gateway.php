@@ -61,7 +61,7 @@ class WC_9Payment_Gateway extends WC_Payment_Gateway
                 'desc_tip'    => true
             ),
             'callbackUrl' => array(
-                'title'       => __('Your Redirect URL: '),
+                'title'       => 'Your Redirect URL: ',
                 'type'        => 'text',
                 'default'     => get_home_url().'/checkout/order-received/',
                 'desc_tip' => true,
