@@ -1,0 +1,49 @@
+
+=== 9PSB Gateway  ===
+
+ Contributors: 9psb  
+ Tags: fintech, payments, woocommerce, Nigeria, mastercard, visa, Naira, payment gateway, bank transfer, mobile payments  
+ Requires at least: 3.1  
+ Stable tag: 1.4.1 
+ License: GPL-2.0+  
+
+The 9PSB WooCommerce Plugin enables you to easily integrate 9PSB as a payment gateway on your online store, allowing customers to make payments using various methods such as Credit/Debit cards, Bank Transfers, Mobile Payments, and more.
+
+ == Description ==
+
+With the official 9PSB WooCommerce Plugin, you can accept payments from your customers via Credit/Debit cards, Bank Transfers, and Mobile Payments directly on your WooCommerce store.
+
+ = Plugin Features =
+
+- *Payment Methods Supported*: 
+  - Credit/Debit cards
+  - Bank Transfers
+  - Mobile Payments
+  - USSD
+  
+= Requirements =
+
+1. A 9PSB Business account with API keys. You can get your keys [here](https://9psb.com.ng/dashboard/settings/apis).  
+2. WooCommerce Plugin (download from [WooCommerce](https://woocommerce.com/)).  
+3. Supported PHP version: 7.4.0 - 8.2.
+
+= Installation =
+
+= Automatic Installation =
+
+1. Log in to your WordPress Dashboard.
+2. Go to **Plugins > Add New**.
+3. Search for `9PSB WooCommerce`.
+4. Click **Install Now** next to the plugin name.
+5. After installation, click **Activate**.
+6. Go to **WooCommerce > Settings**, and select the **Checkout** tab.
+7. Click on **9PSB** under the available payment methods and configure your settings.
+
+= Manual Installation =
+
+1. Download the plugin zip file.
+2. Go to **Plugins > Add New** in your WordPress Dashboard.
+3. Click **Upload Plugin** and select the downloaded zip file.
+4. Click **Install Now** and then **Activate** the plugin.
+5. Follow the same configuration steps mentioned in the automatic installation section.
+

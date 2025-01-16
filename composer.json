@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "sentry/sentry": "^4.9",
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
