@@ -1,12 +1,11 @@
-# 9PSB Gateway Plugin for WooCommerce
+# 9PSB Gateway
 
 **Contributors**: 9psb  
 **Tags**: fintech, payments, WooCommerce, Nigeria, Naira, payment gateway, bank transfer, mobile payments  
 **Requires at least**: 3.1  
 **Stable tag**: 1.4.1  
 **License**: GPL-2.0+  
-
-The 9PSB WooCommerce Plugin enables you to easily integrate 9PSB as a payment gateway on your online store, allowing customers to make payments using various methods such as bank transfers, mobile payments, and more.
+**Short Description**: A WooCommerce plugin for integrating 9PSB as a payment gateway with support for bank transfers, mobile payments, and USSD.
 
 ## Description
 
@@ -44,6 +43,9 @@ With the official 9PSB WooCommerce Plugin, you can accept payments from your cus
 3. Click **Upload Plugin** and select the downloaded ZIP file.
 4. Click **Install Now** and then **Activate** the plugin.
 5. Follow the same configuration steps mentioned in the automatic installation section.
+
+## Tested Up to
+- Tested up to Wordpress 6.7.1
 
 ## Troubleshooting
 - **Authentication Failure**: Ensure API keys are correct for the environment set (test/live).

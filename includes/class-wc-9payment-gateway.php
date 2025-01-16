@@ -195,7 +195,7 @@ class WC_9Payment_Gateway extends WC_Payment_Gateway
             wp_die('Invalid request');
         }
 
-        $merchant_reference = sanitize_text_field($_GET['reference']);
+        $merchant_reference = wp_unslash( sanitize_text_field($_GET['reference']) );
         $order_id = wc_get_order_id_by_order_key($merchant_reference);
 
         if (!$order_id) {
